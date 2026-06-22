@@ -1,8 +1,8 @@
 node_modules/
 
-# Environment variables
+# dotenv environment variable files
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 drizzle/
